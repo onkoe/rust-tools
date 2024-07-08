@@ -24,6 +24,8 @@ Tools to assist in testing your project's behavior.
   - See [the usage guide here](https://rust-fuzz.github.io/book/cargo-fuzz/tutorial.html).
 - [`cargo-all-features`](https://github.com/frewsxcv/cargo-all-features): Runs `cargo {build|check|test}` for all feature combinations. This ensures 100% coverage for weird feature flag combinations (and helps find [disallowed negative features](https://doc.rust-lang.org/cargo/reference/features.html#feature-unification)).
 - [`cargo-mutants`](https://github.com/sourcefrog/cargo-mutants): Messes with your source code to make sure tests actually catch issues. It's much like fuzzing - except for your source code, not just a public API. **Use this!**
+- [`cargo-husky`](https://github.com/rhysd/cargo-husky): When added to your project's `dev-dependencies`, this will ensure that a pre-commit hook is generated for `cargo-test`, ensuring that faulty code isn't pushed to your repo.
+  - Keeps CI costs low, so potentially **good in limited workplace environments**.
 
 ### Building
 
