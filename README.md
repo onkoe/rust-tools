@@ -36,6 +36,10 @@ Mostly for binaries, these tools assist in creating safe, solid releases for cli
 - [`cargo-dist`](https://opensource.axo.dev/cargo-dist/): Completely automates the process of creating new releases on GitHub and other platforms. It tags, builds, publishes, and announces your new release.
 - [`cargo-chef`](https://github.com/LukeMathWalker/cargo-chef): Dramatically increases the speed of subsequent Docker builds for your project. **If you use Docker, this is a must-have.**
 
+### Optimization
+
+- [`cargo-bloat`](https://github.com/RazrFalcon/cargo-bloat): Looks through your binaries and finds the largest functions/methods.
+
 ### Other
 
 These don't fit elsewhere. But I like them!
